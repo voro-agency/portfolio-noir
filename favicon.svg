@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <style>
+      .blink { animation: b 1.4s step-end infinite; }
+      @keyframes b { 0%,100%{opacity:1} 50%{opacity:0} }
+    </style>
+  </defs>
+  <rect width="32" height="32" fill="#000" rx="4"/>
+  <rect x="1" y="1" width="30" height="30" fill="none" stroke="#00ff94" stroke-width="1" rx="3" opacity="0.35"/>
+  <text x="3" y="23" font-family="'Courier New',Courier,monospace" font-size="21" font-weight="700" fill="white" dominant-baseline="auto">G</text>
+  <text x="16" y="23" font-family="'Courier New',Courier,monospace" font-size="21" font-weight="700" fill="#00ff94" dominant-baseline="auto">P</text>
+  <rect class="blink" x="29" y="4" width="2" height="9" fill="#00ff94" rx="1"/>
+</svg>

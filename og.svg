@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="vg" cx="50%" cy="50%" r="70%">
+      <stop offset="30%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.85"/>
+    </radialGradient>
+    <pattern id="dots" width="38" height="38" patternUnits="userSpaceOnUse">
+      <circle cx="19" cy="19" r="0.7" fill="rgba(255,255,255,0.055)"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#000"/>
+  <!-- Dot grid -->
+  <rect width="1200" height="630" fill="url(#dots)"/>
+  <!-- Vignette -->
+  <rect width="1200" height="630" fill="url(#vg)"/>
+
+  <!-- Left accent bar -->
+  <rect x="80" y="72" width="2" height="486" fill="#00ff94" opacity="0.45"/>
+
+  <!-- Top corner bracket -->
+  <path d="M1100 56 L1148 56 L1148 104" stroke="#00ff94" stroke-width="2" fill="none" opacity="0.4"/>
+  <!-- Bottom corner bracket -->
+  <path d="M52 526 L52 574 L100 574" stroke="#00ff94" stroke-width="2" fill="none" opacity="0.4"/>
+
+  <!-- Main name — line 1 -->
+  <text x="118" y="238"
+    font-family="Impact,'Arial Black','Arial Narrow',sans-serif"
+    font-size="152" font-weight="900" fill="white" letter-spacing="-3">GUILHERME</text>
+
+  <!-- Main name — line 2 -->
+  <text x="118" y="396"
+    font-family="Impact,'Arial Black','Arial Narrow',sans-serif"
+    font-size="152" font-weight="900" fill="white" letter-spacing="-3">PROENÇA</text>
+
+  <!-- Green accent line under name -->
+  <rect x="118" y="412" width="440" height="2" fill="#00ff94"/>
+
+  <!-- Subtitle -->
+  <text x="118" y="468"
+    font-family="'Courier New',Courier,monospace"
+    font-size="22" fill="rgba(255,255,255,0.42)" letter-spacing="3.5">BACKEND ENGINEER · AI SYSTEMS · AUTOMATION</text>
+
+  <!-- Tagline -->
+  <text x="118" y="526"
+    font-family="Georgia,'Times New Roman',serif"
+    font-size="28" font-style="italic" fill="#00ff94">"I build things that actually work."</text>
+
+  <!-- Bottom info bar -->
+  <rect x="0" y="594" width="1200" height="36" fill="rgba(0,255,148,0.04)"/>
+  <text x="118" y="617"
+    font-family="'Courier New',Courier,monospace"
+    font-size="16" fill="rgba(255,255,255,0.25)" letter-spacing="2">São Paulo · github.com/GuilhermeCostaProenca · somosvoro.com.br</text>
+
+  <!-- Particle field — right side (simulated) -->
+  <g opacity="1">
+    <circle cx="892" cy="108" r="3"   fill="#00ff94" opacity="0.80"/>
+    <circle cx="958" cy="158" r="1.5" fill="white"   opacity="0.30"/>
+    <circle cx="1002" cy="88" r="2"   fill="#00ff94" opacity="0.55"/>
+    <circle cx="1048" cy="138" r="1"  fill="white"   opacity="0.20"/>
+    <circle cx="1082" cy="112" r="2.5" fill="#00ff94" opacity="0.65"/>
+    <circle cx="1128" cy="188" r="1.5" fill="white"  opacity="0.25"/>
+    <circle cx="868" cy="218" r="1"   fill="#00ff94" opacity="0.35"/>
+    <circle cx="922" cy="265" r="2"   fill="white"   opacity="0.18"/>
+    <circle cx="1010" cy="234" r="3"  fill="#00ff94" opacity="0.70"/>
+    <circle cx="1058" cy="298" r="1.5" fill="white"  opacity="0.22"/>
+    <circle cx="1104" cy="258" r="2"  fill="#00ff94" opacity="0.48"/>
+    <circle cx="1146" cy="335" r="1"  fill="white"   opacity="0.15"/>
+    <circle cx="876" cy="352" r="2.5" fill="#00ff94" opacity="0.52"/>
+    <circle cx="940" cy="388" r="1.5" fill="white"   opacity="0.20"/>
+    <circle cx="986" cy="365" r="1"   fill="#00ff94" opacity="0.38"/>
+    <circle cx="1034" cy="418" r="2"  fill="white"   opacity="0.16"/>
+    <circle cx="1118" cy="382" r="3"  fill="#00ff94" opacity="0.60"/>
+    <circle cx="884" cy="448" r="1"   fill="#00ff94" opacity="0.30"/>
+    <circle cx="960" cy="478" r="2"   fill="white"   opacity="0.14"/>
+    <circle cx="1006" cy="455" r="1.5" fill="#00ff94" opacity="0.42"/>
+    <circle cx="1074" cy="498" r="1"  fill="white"   opacity="0.18"/>
+    <circle cx="1138" cy="468" r="2.5" fill="#00ff94" opacity="0.55"/>
+    <circle cx="900" cy="532" r="1.5" fill="#00ff94" opacity="0.28"/>
+    <circle cx="968" cy="556" r="1"   fill="white"   opacity="0.12"/>
+    <circle cx="1022" cy="518" r="2"  fill="#00ff94" opacity="0.35"/>
+    <circle cx="1092" cy="548" r="1.5" fill="white"  opacity="0.15"/>
+    <circle cx="1150" cy="528" r="2"  fill="#00ff94" opacity="0.45"/>
+    <!-- Accent cluster near "VORO" area -->
+    <circle cx="862" cy="168" r="1.5" fill="#00ff94" opacity="0.60"/>
+    <circle cx="834" cy="200" r="1"   fill="white"   opacity="0.25"/>
+    <circle cx="848" cy="288" r="2"   fill="#00ff94" opacity="0.40"/>
+    <circle cx="822" cy="340" r="1"   fill="white"   opacity="0.18"/>
+  </g>
+
+  <!-- Rotated label right edge -->
+  <text transform="translate(1174,460) rotate(-90)"
+    font-family="'Courier New',Courier,monospace"
+    font-size="10" fill="rgba(255,255,255,0.12)" letter-spacing="4">BACKEND · AI · AUTOMATION · 2026</text>
+</svg>
